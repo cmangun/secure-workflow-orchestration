@@ -1,0 +1,7 @@
+flowchart LR
+  Commit([Commit]) --> CI[CI Build]
+  CI --> Scan[Security Scan]
+  Scan --> Gate{Approval}
+  Gate --> Dev[Dev]
+  Gate --> Stage[Staging]
+  Gate --> Prod[Production]

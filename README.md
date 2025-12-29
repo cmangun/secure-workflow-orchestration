@@ -1,5 +1,7 @@
 # Secure Workflow Orchestration
 
+![Architecture](./docs/architecture.png)
+
 [![CI](https://github.com/cmangun/secure-workflow-orchestration/actions/workflows/ci.yml/badge.svg)](https://github.com/cmangun/secure-workflow-orchestration/actions/workflows/ci.yml)
 [![Terraform](https://img.shields.io/badge/Terraform-1.x-purple?style=flat-square&logo=terraform)]()
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)]()
